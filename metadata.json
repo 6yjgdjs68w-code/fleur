@@ -1,0 +1,8 @@
+{
+  "name": "Telegram Mini App Studio & Playground",
+  "description": "Интерактивная среда и готовые шаблоны для создания Telegram Mini Apps (TMA): магазин, кликер, формы заявок и тестер Telegram WebApp SDK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

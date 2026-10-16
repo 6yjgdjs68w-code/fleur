@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --fleur-brown: #3E2C23;
+  --fleur-pink: #F4B6C2;
+  --fleur-pink-light: #FDE8ED;
+  --fleur-cream: #FAF6F0;
+  
+  --tg-theme-bg-color: #3E2C23;
+  --tg-theme-secondary-bg-color: #2D1F18;
+  --tg-theme-text-color: #FAF6F0;
+  --tg-theme-button-color: #F4B6C2;
+  --tg-theme-button-text-color: #3E2C23;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #3E2C23;
+  color: #FAF6F0;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-serif-fleur {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Hide scrollbars for app-like feeling */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
